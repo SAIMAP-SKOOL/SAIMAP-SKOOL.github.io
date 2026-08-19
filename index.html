@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SAIMAP</title>
+    <meta name="description" content="Proyectos y plataformas de SAIMAP." />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 32 32%22><rect width=%2232%22 height=%2232%22 rx=%226%22 fill=%22%231a1a2e%22/><text x=%2216%22 y=%2222%22 font-size=%2218%22 font-family=%22sans-serif%22 font-weight=%22bold%22 fill=%22%23ff9f1c%22 text-anchor=%22middle%22>S</text></svg>" />
+    <style>
+      :root {
+        --color-primario: #1a1a2e;
+        --color-fondo-alt: #f6f6f8;
+        --color-borde: #e2e2e8;
+        --color-acento: #ff9f1c;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+        color: #1c1c1c;
+        background: #fff;
+        line-height: 1.55;
+      }
+      .contenedor {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 0 1.25rem;
+      }
+      header {
+        padding: 2.5rem 0 1.5rem;
+      }
+      header h1 {
+        margin: 0;
+        font-size: 2rem;
+        color: var(--color-primario);
+      }
+      header p {
+        color: #555;
+        max-width: 60ch;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+        gap: 1.25rem;
+        padding-bottom: 3rem;
+      }
+      a.tarjeta {
+        display: block;
+        border: 1px solid var(--color-borde);
+        border-radius: 10px;
+        padding: 1.25rem;
+        text-decoration: none;
+        color: inherit;
+        transition: transform 0.15s ease, box-shadow 0.15s ease;
+      }
+      a.tarjeta:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.08);
+      }
+      a.tarjeta h2 {
+        margin: 0 0 0.4rem;
+        font-size: 1.1rem;
+        color: var(--color-primario);
+      }
+      a.tarjeta p {
+        margin: 0;
+        font-size: 0.9rem;
+        color: #555;
+      }
+      footer {
+        padding: 1.5rem 0 2.5rem;
+        color: #888;
+        font-size: 0.85rem;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="contenedor">
+      <header>
+        <h1>SAIMAP</h1>
+        <p>Plataformas y proyectos de SAIMAP.</p>
+      </header>
+
+      <div class="grid">
+        <a class="tarjeta" href="/saimap-afiliados/">
+          <h2>SAIMAP Afiliados</h2>
+          <p>Blogs de reseñas de productos de Amazon, organizados por nicho.</p>
+        </a>
+        <a class="tarjeta" href="/saimap-ecclesia/">
+          <h2>SAIMAP Ecclesia</h2>
+          <p>Lecturas y contenidos de teología y religión.</p>
+        </a>
+        <a class="tarjeta" href="/saimap-idiomas/">
+          <h2>SAIMAP Idiomas</h2>
+          <p>Curso interactivo de idiomas.</p>
+        </a>
+        <a class="tarjeta" href="/saimap-lenguas-sagradas/">
+          <h2>Lenguas Sagradas</h2>
+          <p>Inglés, griego koiné, latín y arameo bíblico-litúrgico, estilo Duolingo.</p>
+        </a>
+        <a class="tarjeta" href="/saimap-musica-interactiva/">
+          <h2>Estudio Musical SAIMAP</h2>
+          <p>Piano, guitarra y solfeo, con detección de tono por micrófono.</p>
+        </a>
+        <a class="tarjeta" href="/saimap-plataforma/">
+          <h2>Plataforma SAIMAP</h2>
+          <p>Plataforma de repaso y ejercicios.</p>
+        </a>
+      </div>
+
+      <footer>
+        <p>© 2026 SAIMAP.</p>
+      </footer>
+    </div>
+  </body>
+</html>
