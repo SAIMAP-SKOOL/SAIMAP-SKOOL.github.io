@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.saimap.lingo",
+    "sha256_cert_fingerprints": [
+      "40:E9:A8:DE:1E:81:DC:C5:36:90:F3:5F:E9:7A:F9:83:C3:92:C5:8B:D9:B7:1D:B7:40:59:3D:76:ED:32:75:AE"
+    ]
+  }
+}]
