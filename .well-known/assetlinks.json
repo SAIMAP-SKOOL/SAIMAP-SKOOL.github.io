@@ -1,10 +1,15 @@
-[{
-  "relation": ["delegate_permission/common.handle_all_urls"],
-  "target": {
-    "namespace": "android_app",
-    "package_name": "com.saimap.lingo",
-    "sha256_cert_fingerprints": [
-      "40:E9:A8:DE:1E:81:DC:C5:36:90:F3:5F:E9:7A:F9:83:C3:92:C5:8B:D9:B7:1D:B7:40:59:3D:76:ED:32:75:AE"
-    ]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.saimap.lingo",
+      "sha256_cert_fingerprints": [
+        "33:8E:8B:49:3F:86:62:05:5E:62:98:60:66:E5:DC:C0:43:C3:B6:A8:FE:BB:D9:44:F2:08:F7:9C:58:3D:55:E8",
+        "40:E9:A8:DE:1E:81:DC:C5:36:90:F3:5F:E9:7A:F9:83:C3:92:C5:8B:D9:B7:1D:B7:40:59:3D:76:ED:32:75:AE"
+      ]
+    }
   }
-}]
+]
