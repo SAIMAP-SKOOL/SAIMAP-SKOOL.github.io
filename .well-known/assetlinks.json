@@ -11,5 +11,17 @@
         "40:E9:A8:DE:1E:81:DC:C5:36:90:F3:5F:E9:7A:F9:83:C3:92:C5:8B:D9:B7:1D:B7:40:59:3D:76:ED:32:75:AE"
       ]
     }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.saimap.psicologia",
+      "sha256_cert_fingerprints": [
+        "C7:6D:DE:63:0C:54:91:BA:A3:F4:23:3E:F3:09:03:CC:56:5C:F5:8B:D6:C0:5F:61:31:AB:2E:BA:72:EC:3A:AA"
+      ]
+    }
   }
 ]
